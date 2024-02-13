@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div id="Abeja">
+
+         <img id="imagen" src="img/abeja.png" alt="">
+         <audio id="miAudio" src="mp3/cancion.mp3"></audio>
+    </div>
+    <div id="cartas">
+        <div id="Carta">
+
+        </div> 
+        <div id="CartaConTexto">
+            <div style="display: flex; align-items: center; gap:5px;">
+                <H3 style="color: rgba(226, 223, 223, 0.89);">Para la niña de mi corazon </H3>  
+                <h1 style="font-size: 50px; color: red;">❤</h1> 
+            </div>
+            
+            <br>
+            
+            <p>Hola vida mía, espero que se encuentre bien y que se esté sintiendo de lo mejor uwu. Solo vengo a decirle algunas cositas, como lo mucho que eres para mí... Desde que te conocí supe que lo eras todo para mí, y ahora viéndonos así de casados jsjs sé que no me equivoque contigo. Eres una mujer inigualable, una mujer que cualquiera quisiera tener a tu hermoso lado. Juro que te cuidaré como huiesito santo, eres esa huasita que siempre busque pero con 1000 millones de plus. Me alegro de que hasta el día de hoy usted este ahí conmigo, y espero que siempre sea así n.n</p>
+            <br>
+            <p>Por otro lado, vengo a recordarle que por mi parte siempre tendrá un amor incondicional. Estaré en las buenas y en las malas, y siempre estaré de su lado, te amo, te adoro y siempre serás mi razón de vivir preciosura mía</p>
+            <br>
+            <p>Feliz san valentin niña mia n.n. Este añito quise hacerle algo distino, algo que nunca haya hecho para el amor de mi vida o mejor dicho para mi amada esposa. Primer san valentin juntitos amor de  mi vida, te amo demasiado.</p>
+            <br>
+            <p>Pd: Actualizaré esta pagina siempre que quiera escribirle algo. Te amo amor mio</p>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('imagen').addEventListener('click', reproducirAudio); 
+
+        function reproducirAudio() {
+            var audio = document.getElementById('miAudio');
+            audio.play();
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
